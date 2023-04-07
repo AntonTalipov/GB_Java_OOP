@@ -1,4 +1,4 @@
-package Practise;
+package Practise1;
 
 public abstract class Product {
     private String name;

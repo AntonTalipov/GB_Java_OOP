@@ -1,6 +1,4 @@
-package Practise;
-
-import java.util.List;
+package Practise1;
 
 public class HotDrink extends Product {
 
