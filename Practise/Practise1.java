@@ -15,6 +15,18 @@ public class Practise1 {
         products.add(snikers);
         GiveBottleOfWaterMachine giveMachine = new GiveBottleOfWaterMachine();
 
+        //HomeWork
+        HotDrink tea = new HotDrink("Tea", 15, 35);
+        HotDrink coffeeLatte = new HotDrink("Latte", 27, 53);
+        HotDrink coffeeCappuchino = new HotDrink("Cappuchino", 31, 56);
+        List<HotDrink> hotDrinks = new ArrayList<>();
+        hotDrinks.add(tea);
+        hotDrinks.add(coffeeCappuchino);
+        hotDrinks.add(coffeeLatte);
+        HotDrinkMachine hotDrinkMachine = new HotDrinkMachine();
+        hotDrinkMachine.getProduct( hotDrinks,"Tea",15,35);
+
+
 }
 
 }

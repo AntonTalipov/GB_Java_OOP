@@ -2,7 +2,7 @@ package Practise;
 
 public abstract class Product {
     private String name;
-    private double cost;
+    private int cost;
 
     public String getName() {
         return name;
@@ -16,11 +16,11 @@ public abstract class Product {
         return cost;
     }
 
-    public void setCost(double cost) {
+    public void setCost(int cost) {
         this.cost = cost;
     }
 
-    public Product(String name, double cost) {
+    public Product(String name, int cost) {
         this.name = name;
         this.cost = cost;
     }

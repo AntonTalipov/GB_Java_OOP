@@ -1,10 +1,9 @@
 package Practise;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public interface VendingMachine {
 
-    public void getProductByName();
-    public  void getProductPrice();
+    public void getProduct(List<HotDrink> list, String name, double cost, int temperature);
+
 }

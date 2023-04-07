@@ -1,14 +1,13 @@
 package Practise;
 
+import java.util.List;
+
 public class GiveBottleOfWaterMachine implements VendingMachine{
 
-    @Override
-    public void getProductByName() {
-
-    }
 
     @Override
-    public void getProductPrice() {
-
+    public void getProduct(List<HotDrink> list, String name, double cost, int temperature) {
+        System.out.println();;
     }
+
 }
