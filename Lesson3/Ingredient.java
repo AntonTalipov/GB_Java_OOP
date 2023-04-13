@@ -1,4 +1,4 @@
-package Lesson3.ExBeverage;
+package Lesson3;
 
 public abstract class Ingredient {
     public String brand;
@@ -10,5 +10,11 @@ public abstract class Ingredient {
     @Override
     public String toString() {
         return brand;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        Ingredient t = (Ingredient) obj;
+        return t.brand == this.brand;
     }
 }

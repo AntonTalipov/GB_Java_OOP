@@ -1,4 +1,4 @@
-package Lesson3.ExBeverage;
+package Lesson3;
 
 public class Water extends Ingredient {
 
