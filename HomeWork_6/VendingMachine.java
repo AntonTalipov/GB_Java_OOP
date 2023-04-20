@@ -3,15 +3,15 @@ package HomeWork_6;
 import java.util.ArrayList;
 import java.util.List;
 
-public class VendingMachine<T extends Product> {
-    private List<T> products= new ArrayList<>();
+public class VendingMachine  {
+    private List<Product> products= new ArrayList<>();
 
-    public List<T> getProducts() {
+    public List<Product> getProducts() {
         return products;
     }
 
     public Product getProductByName(String name) {
-        for (T product : products) {
+        for (Product product : products) {
             if (product.getName() == name) {
                 return product;
             }
@@ -20,7 +20,7 @@ public class VendingMachine<T extends Product> {
     }
 
     public Product getProductByCost(Integer cost) {
-        for (T product : products) {
+        for (Product product : products) {
             if (product.getCost() == cost) {
                 return product;
             }
@@ -28,7 +28,7 @@ public class VendingMachine<T extends Product> {
         return null;
     }
 
-    public void addProduct(T product) {
+    public void addProduct(Product product) {
         products.add(product);
     }
 
